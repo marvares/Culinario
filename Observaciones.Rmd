@@ -1,0 +1,30 @@
+---
+title: "Observaciones Tesis"
+author: "Martín Vargas Estrada"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sobre el Diseño de Investigación
+
+La caracterización de esta investigación como "cuasiexperimental" es acertada. 
+
+Aunque no está 100% establecido en el texto compartido, parece bastante claro que se trata de una muestra de 44 personas sometidas a cuatro "tratamientos" o condiciones cuasi experimentales, en las que se va variando los niveles de calidad de las siguientes dimensiones:
+
+a. Producto
+b. Servicio
+c. Entorno Físico (Ambiente)
+
+Estas tres dimensiones pueden concebirse como variables  independientes, mintras que la intención de reúso sería la variable dependiente. 
+
+La investigación duró cuatro semanas. 
+
+La primera semana se utiliza como línea de base; en la segunda se expuso a los participantes a un servicio de calidad disminuida; en la tercera, a un producto de calidad inferior; por último, en la cuarta semana se sometió a los participantes a un ambiente físico de bajo nivel en comparación a los niveles de referencia iniciales (semana 1).
+
+### Observaciones 
+
+1. La primera observación es más o menos obvia: aunque en principio la intención es evaluar el impacto de cada dimensión de la experiencia culinaria sobre la decisión de retorno/reuso, la realidad es que  las variables independientes también cambian, es decir, no es que los participantes tengan exactamente la misma experiencia culinaria salvo en lo que corresponde  la VI del caso. Se asume que 
