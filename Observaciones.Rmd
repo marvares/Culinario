@@ -1,0 +1,38 @@
+---
+title: "Observaciones Tesis"
+author: "Martín Vargas Estrada"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sobre el Diseño de Investigación
+
+La caracterización de esta investigación como "cuasiexperimental" es acertada. 
+
+Aunque no está 100% explicitado en el texto compartido, parece bastante claro que se trata de una muestra de 44 personas sometidas a cuatro "tratamientos" o condiciones cuasi experimentales, en las que se va variando los niveles de calidad de las siguientes dimensiones del servicio culinario:
+
+a. Producto
+b. Servicio
+c. Entorno Físico (Ambiente)
+
+Estas tres dimensiones pueden concebirse como **variables  independientes**, mientras que la intención de reuso (o intención de volver a utilizar el servicio) sería la variable dependiente. 
+
+La investigación duró cuatro semanas. 
+
+La información recopilada durante la primera semana se utiliza como línea de base; en la segunda se expuso a los participantes a un servicio de calidad disminuida; en la tercera, a un producto de calidad inferior; por último, en la cuarta semana se sometió a los participantes a un ambiente físico de bajo nivel en comparación a los niveles de referencia iniciales.
+
+Con cada una de estas modificaciones se intenta la manipulación cuasiexperimental de las variables independientes, una por cada semana. En este caso, la intención es crear condiciones cuasiexperimentales, en las que cada semana intenta manipular una de las variables independientes dejando las demás contantes, de tal modo de intentar medir elimpacto diferencial sobre la variable dependiente, que es la variable de interés. 
+
+Así planteada, esta investigación seguiría un diseño cuasi experimental intrasujeto con medidas repetidas. 
+
+### Observaciones 
+
+1. La primera observación es más o menos obvia: aunque en principio la intención es evaluar el impacto específico de cada dimensión (variable independiente) de la experiencia culinaria sobre la decisión de retorno/reuso (la variable dependiente), la realidad es que  *las variables independientes (VI) supuestamente controladas también cambian en cada semana*, es decir, no es que los participantes tengan exactamente la misma experiencia culinaria salvo en lo que corresponde a la VI que se intenta manipular. En otras palabras, *las variables independientes no están estrictamente controladas para no ser intervinientes*. 
+
+2. La segunda observación concierne al número de casos; dado que la cantidad de casos es más bien pequeña, es probable que se deba apelar a herramientas estadísticas no paramétricas. Esto implica una cierta pérdida de potencia analítica, pero es posible compensarlo si se utiliza las harramientas adecuadas. 
+
+3. Directamente vinculadas con la observación anterior, 

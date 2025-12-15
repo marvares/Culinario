@@ -1,0 +1,132 @@
+---
+title: "Martín"
+subtitle: "001"
+author: "MVE"
+date: "2025-12-17"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## El Origen 
+
+Martín nació cuando yo tenía 15 años, el 7 de junio. Mi padre apareció en la casa con un tomo de la Enciclopedia Quillet --solo uno, el dedicado al Àlgebra; no tenía el monto para la secuencia completa de saberes, solo encontró aquel, o tal vez solo priorizó la materia más provechosa para mí, en cuyo último caso no andaba descaminado--. Me trajo, además, una cadena de plata. Mi madre, a su vez, llegó con una cruz igualmente de plata, a juego para esa cadena. 
+
+Y dos discos de 45 rpm, según mis deseos expresos; uno de *I Will Survive*, de Gloria Gaynor, y otro de *Too Much Heaven*, por The Bee Gees. 
+
+Martín nació levantisco, rebelde, mucho más atrevido de lo que Francisco, Paco o Paquito llegarían nunca a ser. Martín poseería mujeres, viajaría a lejanos países, ganaría concursos y escribiría libros [^1].
+
+[^1]: Inéditos y/o ignorados por el mundo, pero esa es otra historia. 
+
+Y aunque yo aún no lo sabía, Martín viviría mucho menos que Francisco.
+
+***
+
+Martín pasó de la nada a la existencia en ese invierno de 1981, y a ese misterio los padres de Paquito fueron totalmente ajenos. Mi padre lo aceptó, incluso con cierto buen ánimo, presintiendo que su hijo era ya un hombre, mientras que mi madre extrañaría a Paquito para siempre, y trataría de encontrarlo en cada conversación, en cada momento de pena o alegría compartidos, en cada desacuerdo y cada abrazo. 
+
+Paquito había crecido diciéndole a medio mundo que le gustaría ser un sacerdote cuando adulto, sin saber, el pobre, que nunca llegaría a serlo. 
+
+Martín era ateo. 
+
+Paquito no osaba nunca debatir con su mamá, y era acometido por embates tenebrosos de culpa cada vez que su madre se enojaba con él, cediendo irremediablemente, pidiendo disculpas llenas de desesperación existencial. 
+
+Martín dejó innumerables discusiones con la madre irresueltas, al descubrir, cruelmente, que la madre lo perdonaba cada vez, solo era cuestión de alejarse el tiempo suficiente. 
+
+## Una aventura de Martín. 
+
+Tal vez Martín empezó a existir no de manera abrupta; quizás sea más lógico, a estas alturas, interpretar algunos arranques míos de cuando era aún más joven como ensayos o vislumbres de lo que sería esa personalidad. 
+
+Como muchos, yo abrigo un vacío para todo lo que me sucedió entre los cinco y los siete años; recuperé la capacidad de preservar mis recuerdos más o menos al octavo cumpleaños, con mis primeros días de escuela primaria, pero esa es otra historia. 
+
+Solo valga decir que antes de mis quince la vida era como el ejercicio de la perseverancia de un clavel marchito. Recuerdo cómo, cada año, mi padre me traía alguna agenda del año previo ---desecho de la oficina en la que trabajaba---, y me la entregaba en enero. Yo me pasaba el verano tratando de encontrar algún evento que rescatar de la trivialidad, y era una búsqueda inútil, no solo por el vacío de mis días, sino porque la secuencia de sus calendarios no correspondía al año actual, lo que las hacía inservibles también para anotar pendientes (no que los tuviera, tampoco). Eran agendas esbeltas, con tapas de hermosos colores Pantone enteros, brillantes,  con páginas interiores de un deslumbrante papel blanco, y olían y se veían como intrusiones inesperadas de otra realidad: las de un país ajeno, donde todo funcionaba, donde la gente no esperaba años para que le instalen un triste teléfono fijo, donde los buses llegaban y partían a/de paraderos  señalizados a hora prrestablecidas, donde los teatros estaban llenos de eventos interesantes y los museos abigarrados podían cambiarte la vida en un instante con una sencilla exposición, donde te veías expuesto a algunas de las obras de arte más exquisitas producidas por la Humanidad. 
+
+En contraste, yo pasaba mis veranos dando vueltas al interior de mi casita de un solo piso, tratando de reventar a patadas una pelota de fútbol contra las paredes de mi patio, leyendo los pocos ---oh, siempre muy pocos--- libros que mi padre recordaba comprarme en la calle, o viendo televisión en blanco y negro, en el viejo y enorme armatoste que acaparaba el mejor espacio de la sala, habitado por presencias fantasmagóricas que recitaban desde los noticiarios, como una letanía, las mismas noticias, palabra por palabra, a las mismas horas. Melancolía *verbatim*, *ad nauseam*. 
+
+En una pausa publicitaria me enteré de la existencia de una revista llamada *Teleguía*. 
+
+Un verano me atreví a salir de casa porque decidí que quería tener el ejemplar más reciente. No recuerdo cómo, pero escamotée las monedas necesarias y me armé de valor. 
+
+El ridículo valor necesario para recorrer la larga cuadra, de extensión industrial, desde la esquina de mi casa hasta el quiosco de periódicos, cruzando la amplia y descampada avenida Argentina. 
+
+Para un chico que no salía de su casa jamás, salvo que fuera como parte del grupo familiar, y casi siempre en auto (no había prácticamente nada que pudiera justificar una excusión más allá de mi puerta a distancia de caminata), era algo inédito y, en sentido estricto, inexplicable. 
+
+Tal vez fuera el primer asomo de Martín a la existencia, desde detrás aún de mi presencia  preadolescéntica como Paco. 
+
+No solo compré la revista (era publicada en un formato pequeño, menor al de un cuaderno de colegio, imitando las dimensiones de la *TV Guide* norteamericana, y concebida para leerse frente a la tele, consultando el horario de los programas, y dejarla allí, al lado del sillón); participé en un sorteo, de los de antaño, donde había que recortar, rellenar y enviar un cupón a la editora.
+
+Esperé dos semanas para comprar el siguiente número; atravesé de nuevo la inabable cuadra que antecedía a la avenida, y luego los seis carriles polvorientos en ambos sentidos,  ajetreados por camiones inmensos, enfrentando el tráfico de esa época dorada de los ochenta, cuando las luces del semáforo estaban sujetas a interpretación, no había sanciones para los infractores, y las dimensiones de aquellos vehículos me hacían invisible para los choferes. 
+
+Entregué las monedas al canillita[^2], y abrí la revista con cierta voracidad, como si se tratara de un sabroso sánguche y yo anduviera hambriento de varios días. 
+
+[^2]: Mi abuela lo llamaba "periodiquero", lo cual siempre me pareció más apropiado.
+
+Pasé de inmediato a revisar la relación de ganadores: ahí estaba mi nombre, y al leerlo comprendí que en ningún momento había dudado en que ahí lo encontraría. 
+
+Una sensación mágica gatillada por un premio de pacotilla que ya he olvidado. 
+
+***
+
+Aun así, como ya he mencionado, Martín era un descreído y no guardaba en absoluto fe en ninguna clase de magia. Cuando alguien es tan descreído es porque ha tenido una fortuna suficientemente buena como para no sentir la realidad fundamental de la existencia: que somos todos poco menos que monigotes arrojados al viento (o a las olas del océano, escoje tu metáfora favorita), y todo afán por controlar los eventos que arriban a nuestra existencia es ridículo, y solo válidos en la medida en que generan la ilusión de control, y no el control real, pero eso es otra historia.
+
+Martín se  convirtió en universitario antes de convertirse legalmente en adulto. Ese orden de cosas lo marcó de algún modo, hizo que se concibiera a sí mismo como un aprendiz antes que como un ciudadano, como un niño antes que como hombre, y como estudiante eterno antes que como profesional. 
+
+Oswaldo, el hermano de su padre, había sostenido una inusual conversación con este y con Martín, poco tiempo antes de que yo acabara la secundaria (la "Media", como se decía en ese entonces). Inusual por doble motivo: primero que casi nunca coincidíamos con él (yo acompañaba por lo general a mi padre, como debería haber quedado claro ya, a las visitas sabatinas a la casa de mi abuela, en Barrios Altos), y cuando Oswaldo andaba por Lima se dedicaba a bromear con mi padre y no tenía casi ninguna interacción conmigo (lo que me llenaba de alivio: Oswaldo tenía un estilo de interrelación algo desconcertante; parecía hablar siempre en un doble sentido que yo nunca terminaba de entender, y uno no sabía qué hacer con esa amabilidad que usaba para responder incluso a mis reacciones más tontas). 
+
+La segunda razón por la que la conversación de aquella tarde era extraordinaria fue que el tema era mi persona. Mejor dicho, Martín, porque para ese entonces yo ya era Martín. Oswaldo parecía de pronto haber notado mi existencia y previsto mi futuro. De seguro mi padre, en momentos en que yo no andaba presente, le había hablado de mis "logros académicos" (las diplomas al mérito con referencia a un conjunto de treinta  manganzones que cursaban la escuela conmigo y apenas podrían considerarse una muestra válida de nada, pero en fin), y de pronto le había surgido  cierto interés avuncular por mi destino. 
+
+--Mis hijos lo podrían recibir por allá--declaró, con cierto mayestático desapego. "Allá" era Raleigh, Carolina del Norte, United-Fucking-States of Amazing America. Su tono fue el tono tranquilo típico en él, el que siempre le había notado cada vez que había escuchado su voz, pero esta vez la implicancia era trascendental, de allí lo regio: como todas las personas realmente poderosas, con apenas unas pocas palabras había construido realidad, al menos para mí. --Pero--y aquí Oswaldo hizo una pausa clave-- sería mucho más fácil si tramita su visa como estudiante. O sea, sería ideal que él saliera del país siendo ya estudiante universitario, en vez de tratar de ingresar a alguna universidad recién allá. 
+
+Mi padre y yo nos tomamos esa oferta muy en serio.  Aunque a esa edad a mí no se me había pasado aún por la cabeza la posibilidad de pisar suelo norteamericano, ese viaje había sido uno de los sueños dorados de mi papá. Y como todos los auténticos sueños dorados, estaba destinado a no cumplirse jamás, en su caso, aunque en ese momento ninguno de los dos lo sabía. 
+
+Diseñamos un plan, hicimos un sondeo anecdótico y resultó que la manera más rápida y fácil de convertirse en universitario consistía en postular a la Universidad San Martín de Porres, por entonces famosa, junto a la Universidad Ricardo Palma, por la exigencia subterránea de sus cursos. 
+
+Era razonable asumir que el examen de admisión serían parejamente risible. Como el punto era asegurar el ingreso, y la prisa era esencial, aproveché e introduje, de contrabando casi, una --para mis padres-- inesperada elección vocacional: la Psicología. Recuerdo que elegí tal ocupación casi de manera casual. 
+
+Martín tuvo muchísimo que ver en todo esto. Él quería ser escritor, redactar novelas escabrosas que conjugaran el toque de realidad aplastante de Vargas Llosa y el virtuosismo verbal de Ribeyro, mis ineludibles ídolos del momento, y por lo tanto deseaba estudiar Literatura. 
+
+Sería injusto decir que hubo alguna medida represiva de parte de mis padres o que me trataran de desalentar activamente. Les debo la verdad: temía yo mucho más al ridículo social y luego al fracaso y/o mediocridad profesionales que asus reprimendas. Para mí, ser literato era reputacionalmente indefendible --aún ahora, tantas décadas mediante, incluso el término mismo me suena vergonzante, así de prisionero soy de mi prejuicio--.
+
+La peor censura es la que provene de nuestro interior, allí donde el juicio crítico es incapaz de llegar, porque el ojo más fino no puede mirarse a sí mismo. 
+
+Así que, obligado por mi necedad a renunciar a mi actividad dorada, Martín estableció un plan: estudiaría alguna carrera que me permitiera mantener un cómodo nivel de vida, y eventualmente gozar del ocio necesario para escribir, si me placía. 
+
+Mi primer impulso había sido dejarme arrastrar por los lugares comunes y optar por el Derecho, pero Martín halló eso demasiado propio del antiguo y difunto Paquito; se trataba de ganar dinero y cierta reputación, no de dejarse enterrar por entero por el desmonte de la deseabilidad social y del supuesto prestigio de las ocupaciones "liberales". 
+
+Empecé por revivir las por entonces aún muy frescas memorias de mi paso por la Secundaria, y recordé que había disfrutado moderadamente las clases de Psicología. Por el contrario, la Historia me parecía aburrida, la Filosofía demasiado similar al palabreo vacío, la Religión y la Geografía ridículas, y todo lo que requisiese más allá de un mínimo de práctica científica o matemática estaba descartado de antemano. 
+
+Recuerdo haber escogido la Psicología encogiéndome literalmente de hombros: era lo suficientemente agradable como para no convertirme en un amargado, pero no tanto que me distrajera de mi objetivo literario final. 
+
+Retrospectivamente, entiendo la básica equivocación de darle a personas que acaban de salir de la inconsciencia la enorme responsabilidad de elegir un destino, y pocas cosas me generan mayor envidia que contemplar a un mozalbete con una vocación clara, y el talento y la perseverancia necesarias para cumplirla con éxito. Casi sexagenario, entiendo en toda su magnitud la fortuna de empezar temprano a cumplir la misión escrita en cada una de nuestras actitudes, siguiendo un imperativo que a casi todos se nos escapa hasta que ya es muy tarde.  
+
+***
+
+Como había previsto, la decisión de Martín les pareció de poca consecuencia a mis padres. En lo que a ellos concernía, la promesa que Paquito les había hecho antes de la adolescencia (a saber, la de convertirse en Médico, tempranamente descartado el llamado religioso) era la que contaba y la que eventualmente prevalecería. Este paso casi clandestino por la Facultad de Psicología sería solo un *detour*,  un recoveco en el camino, un paso intermedio necesario para dar el salto a los *Yunaites*, como los apodaba mi papá, y realizar mi deslumbrante carrera médica en tierras norteamericanas. 
+
+## El Primer Beso de Martín
+
+Una mañana cenicienta de junio, durante el último año de colegio, los representantes de la "Corporación 2000" nos visitaron en nuestra aula de quinto de secundaria "B". 
+
+La Corporación 2000 era dueña de múltiples negocios, todos relacionados a la formación preuniversitaria. Escribo estas líneas a finales del 2025, y hoy ya no están tan de moda las academias universitarias (aunque de haberlas, haylas,y muy rentables, ya no se las encuentra uno a cada paso, ni se las considera casi *de rigueur*, como sucedía en la década de los ochenta). Exisitía "Ingeniería 2000", "Medicina 2000", "Pedro Paulet" (destinada a los aspirates a cadete), y la decana, la que inició todo: "Academía 2000". 
+
+La cifra 2000 en los ochenta sonaba hipermoderna, distante, y de última actualidad, del mismo modo en que "marciano" en los setenta se usaba como sinónimo de "extraterrestre" y, por extensión, extraño, alienígena, o anómalo (si no equivoco en la sospecha, creo que aún se usa con esa connotación).
+
+Pero divago. El punto es que los representantes de la "Corporación 2000" se presentaron en mi aula para promover los servicios de su grupo de academias y, a modo de promoción marketera, entregaron sendas becas a los primeros lugares de la clase, y fue de ese modo en que me pasé el verano de 1985 yendo cotidianamente a sus viejos aulones, en la Avenida Wilson (hoy Garcilaso de la Vega). 
+
+En teoría era una buena jugada: los primeros lugares de los colegios tenían una buena probabilidad de  aprobar los exámenes de admisión universitarios, y en principio era verosímil que  sus condiscípulos de escuela atribuyeran su éxito, al menos en parte, a la "Corporación 2000", y no a su preexistente (y buen) aprendizaje. En lo que se equivocaba el cándido jefe de marketing de "Corporación 2000", era en el supuesto fundamental de que nuestros condiscípulos hicieran algo que no fuera cagarse sonoramente en lo que hiciéramos o dejáramos de hacer los chancones que ocupábamos los primeros puestos. 
+
+Claro, eso no impidió que yo pasara un verano divertido y, hasta cierto punto, útil. 
+
+***
+
+Teníamos una satánica urgencia por hacer lo indebido, lo prohibido, lo incorrecto. La coordinadora del ciclo veraniego en la "Academia" se llamaba Martha y, obvio, la rebautizamos "Martucha" y, para hacer rima, canturreábamos al notar su cercanía: "Martucha, lávate la..." (en esa época candelejona, no nos atrevíamos todavía a vocalizar por entero el abyecto término "chucha", que según parece aún suele utilizarse para la entrepierna femenina, y nos limitábamos a implicarlo mediante esa alegre declamación de pareados en suspenso). 
+
+Martucha era pequeña, pálida, de disposición pícara y alegre. Frisaba esa edad movediza en la que ya no se es adolescente pero la adultez no ha calado por completo, de modo que la propia identidad, los modales y las preferencias parecen mudar de un momento a otro, haciendo que la persona parezca chispeante y dinámica, cuando en realidad solo está en transición. 
+
+Aun así, esos canturreos idiotas le eran odiosos, como es natural, y más de una vez nos amenazó con denunciarnos ante el coordinador académico. 
+
+Mala estrategia. El coordinador académico era un gordinflón de cara pastosa, casi un enano, con una eterna barbita de 2 días que no crecía nunca, al estilo de la canción de los Hombres G, por entonces muy de moda {y sigue de moda,45 años después. Uno de los rasgos definitorios de la peruanidad es un acendrado apego, casi una dependencia emocional, respecto de lo antiguo y conocido. Los "hits" en la radio peruana tienen una antigüedad promedio de 20 años, los reruns de "El Chavo" --un caso paradigmático-- se emitieron tanto y por tantos años que los soportes físicos  literalmente se pulverizaron. Cuando, en los años ochenta, un reblandecido Fernando Belaúnde volvió a candidatear a la Presidencia, el votante peruano lo favoreció de forma aluvional. Para entonces FBT había perdido el poco filo reformista que había tenido en sus inicios y todo el mundo había perdonado su inoperancia  fundamental y el lirismo decimonónico de sus discursos, que parecían copiados de un acto protocolar de colegio secundario. Por el contrario, la gente no podía esperar para desagraviarlo por el golpe de Velasco, por los empujones de esa noche negra de 1968 cuando los cachaquitos del Ejército lo habían sacado en piyama de Palacio, pero sobre todo porque estaban acostumbrados a Belaúnde como a una chancleta vieja que nos rehusamos a echar al basurero. Augusto Ferrando, quien hizo una pequeña fortuna y una biografía sustentada en hacer bullying profesional a quien se le ponía por delante, fue adorado por los mismos televidentes humildones a los que maltrataba cada sábado, y todos estuvieron dispuestos a sintonizar por treinta años seguidos su show, perdonándole las peores humillaciones públicas a cambio de una cocina "Surge" a kerosene. Ferrando les era familiar.}
+
+Puede parecer curioso, pero todos los beneficiados por las "becas" promocionales de la "Academia 2000" estábamos aglutinados en la misma aula, y todos parecíamos dispuestos a romper el molde de niños bien portados que hasta poco antes nos había hecho merecedores de los elogios y felicitaciones del *establishment* escolar. Por una especie de confabulación de coincidencias, ese verano nos decidimos sin excepción a ser unos escuálidos hijos de puta que ya no creían en nadie, y estábamos ansiosos por demostrarlo. 
+
+Fue por esto que la queja de Martucha ante el coordinador fue un error estratégico. Un comando de avanzada, compuesto por un enorme adolescente de apellido italiano {Passalacqua, donde quiera que estés, va mi saludo y esperanza de que sigas vivo, camarada desgraciado, aunque, con certeza, ya me habrás olvidado.}, una muchacha de generosos pechos, cabellera castaña  peinada con cola, y un aire de lesbiana en cierne, y un servidor, poseídos por el espíritu del carnaval imperante en ese cálido febrero ochentero, llenamos un balde con agua del baño, avanzamos por los vericuetos lóbregos  y los pasillos de crujiente madera de la vieja casona que albergaba a la sede central de la 2000, y tocamos la puerta del aula en que el pequeño gordinflo dictaba clases de Historia. Apenas asomó, lo bañamos con el agua; aún recuerdo el rostro fofo y chorreante, la guayabera color lúcuma empapada, la mano hinchada de dedos como salchichas tratando de enjugar los mofletes y la boca que empezaba a curvarse en una mueca de cerrada indignación. 
