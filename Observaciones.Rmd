@@ -36,8 +36,35 @@ Así planteada, esta investigación seguiría un diseño cuasi experimental intr
 
 ### Observaciones 
 
-1. La primera observación es más o menos obvia: aunque en principio la intención es evaluar el impacto específico de cada dimensión (variable independiente) de la experiencia culinaria sobre la decisión de retorno/reuso (la variable dependiente), la realidad es que  *las variables independientes (VI) supuestamente controladas también cambian en cada semana*, es decir, no es que los participantes tengan exactamente la misma experiencia culinaria salvo en lo que corresponde a la VI que se intenta manipular. En otras palabras, *las variables independientes no están estrictamente controladas para no ser intervinientes*. 
+1. Aunque en principio la intención es evaluar el impacto específico de cada dimensión (variable independiente) de la experiencia culinaria sobre la decisión de retorno/reuso (la variable dependiente), la realidad es que  *las variables independientes (VI) supuestamente controladas también cambian en cada semana*, es decir, no es que los participantes tengan exactamente la misma experiencia culinaria salvo en lo que corresponde a la VI que se intenta manipular. En otras palabras, *las variables independientes no están estrictamente controladas para no ser intervinientes*. 
 
-2. La segunda observación concierne al número de casos; dado que la cantidad de casos es más bien pequeña, es probable que se deba apelar a herramientas estadísticas no paramétricas. Esto implica una cierta pérdida de potencia analítica, pero es posible compensarlo si se utiliza las harramientas adecuadas. 
+2. Dado que la cantidad de casos es más bien pequeña, es probable que se deba apelar a herramientas estadísticas no paramétricas. Esto implica una cierta pérdida de potencia analítica, pero es posible compensarlo si se utiliza las harramientas adecuadas. 
 
-3. 
+3. Otras características de la investigación que no permiten que este sea un diseño experimental:
+
+3.1. No existe grupo control, es decir un grupo que haya acudido al mismo restaurant al mismo tiempo que el grupo experimental sin haber sido sometido a las manipulaciones de  VI. La existencia de ese grupo permitiría conocer y eventualmente contrastar el impacto de las manipulaciones experimentales de forma integral. Por lo demás, de existir tal grupo control (idealmente, compuesto por una cantidad de personas similar a los que componen el grupo cuasiexperimental), la asignación de los participantes a uno u otro grupo (control vs experimental) debería haber sido aleatoria. 
+
+3.2. El orden en que los participantes fueron sometidos a las diversas condiciones fue el mimso para todas las personas. En una situación experimental ideal, se debería haber variado ese orden a fin de descartar que haya algún efecto acumulativo o de acostumbramiento a las manipulaciones. A esto se le denomina "contrabalanceo". 
+
+4. Justificación para estas características no estrictamente experimentales
+
+En general, salvo el caso de que el jurado y/o el asesor de tesis sea muy estricto con el tema metodológico, estas "faltas al modelo experimental" están bastante justificadas; empezando por el hecho de que el mismo documento de tesis establece acertadamente que se trata de un diseño cuasi experimental. Los diseños cuasiexperimentales son perfectamente válidos dado que, como en este caso, muchas veces la vida real impide la ejecución experimental rigurosa. 
+
+Aun así, a continuación detallo los argumentos más sólidos para subsanar estas posibles observaciones:
+
+| Observación                                                       | Contraargumento                                                                                                                                                                    |   |   |   |
+|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
+| No hay grupo control                                              | No hay variables de confusión significativas previstas en la teoría que puedan ser controladas mediante un grupo de control.                                                       |   |   |   |
+| La secuencia de los tratamientos es la misma para toda la muestra | Dado el tamaño muestral, usar contrabalanceo habría generado información estadísticamente poco analizable. Además, logísticamente habría sido muy desafiante.                      |   |   |   |
+| Las VI no manipuladas no son constantes en cada tratamiento       | Mantener las VI no manipuladas idénticas en cada tratamiento habría introducido un elemento de "hastío" o "acostumbramiento" que probablemente habría impactado en los resultados. |   |   |   |
+| Tamaño muestral relativamente pequeño                             | Si es necesario, se aplicará herramientas no paramétricas con mínima pérdida explicativa,                                                                                          |   |   |   |
+
+## Plan de Análisis
+
+Hay dos niveles de análisis distintos en este caso, según los objetivos y las hipótesis planteados:
+
+
+1. Análisis Exploratorio: distribución (normal o no normal); medir confiabilidad (Cronbach y/o McDonald) y validez (Análisis Factorial, CFA o EFA)
+1. ANOVA de Medidas Repetidas: para medir el impacto de las VI (calidad de producto, de servicio y de ambiente) sobre la intención de volver (Variable Dependiente). Para los cruces de variables indpendientes previstas en los objetivos específicos se deberá incluir análisis post-hoc.
+1. Análisis de Regresión: para establecer el impacto diferencial de cada VI sobre la variable dependiente, así como, de ser factible, generar un modelo integral del proceso de decisión, así como la potencia de tal modelo (en qué medida el modelo podría explicar la decisión final). 
+1. En el caso en que sea necesario, habrá que calcular las contrapartes no paramétricas de estos análisis. 
