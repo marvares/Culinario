@@ -13,12 +13,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 La caracterización de esta investigación como "cuasiexperimental" es acertada. 
 
+<<<<<<< HEAD
 Aunque no está 100% explicitado en el texto compartido, parece bastante claro que se trata de una muestra de 44 personas sometidas a cuatro "tratamientos" o condiciones cuasi experimentales, en las que se va variando los niveles de calidad de las siguientes dimensiones del servicio culinario:
+=======
+Aunque no está 100% establecido en el texto compartido, parece bastante claro que se trata de una muestra de 44 personas sometidas a cuatro "tratamientos" o condiciones cuasi experimentales, en las que se va variando los niveles de calidad de las siguientes dimensiones:
+>>>>>>> b2b6db643a87e69bde0cae5c0d8535efe7499135
 
 a. Producto
 b. Servicio
 c. Entorno Físico (Ambiente)
 
+<<<<<<< HEAD
 Estas tres dimensiones pueden concebirse como **variables  independientes**, mientras que la intención de reuso (o intención de volver a utilizar el servicio) sería la variable dependiente. 
 
 La investigación duró cuatro semanas. 
@@ -36,3 +41,14 @@ Así planteada, esta investigación seguiría un diseño cuasi experimental intr
 2. La segunda observación concierne al número de casos; dado que la cantidad de casos es más bien pequeña, es probable que se deba apelar a herramientas estadísticas no paramétricas. Esto implica una cierta pérdida de potencia analítica, pero es posible compensarlo si se utiliza las harramientas adecuadas. 
 
 3. Directamente vinculadas con la observación anterior, 
+=======
+Estas tres dimensiones pueden concebirse como variables  independientes, mintras que la intención de reúso sería la variable dependiente. 
+
+La investigación duró cuatro semanas. 
+
+La primera semana se utiliza como línea de base; en la segunda se expuso a los participantes a un servicio de calidad disminuida; en la tercera, a un producto de calidad inferior; por último, en la cuarta semana se sometió a los participantes a un ambiente físico de bajo nivel en comparación a los niveles de referencia iniciales (semana 1).
+
+### Observaciones 
+
+1. La primera observación es más o menos obvia: aunque en principio la intención es evaluar el impacto de cada dimensión de la experiencia culinaria sobre la decisión de retorno/reuso, la realidad es que  las variables independientes también cambian, es decir, no es que los participantes tengan exactamente la misma experiencia culinaria salvo en lo que corresponde  la VI del caso. Se asume que 
+>>>>>>> b2b6db643a87e69bde0cae5c0d8535efe7499135
