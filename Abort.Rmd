@@ -1,0 +1,17 @@
+---
+title: "Aborto"
+author: "Martín Vargas Estrada"
+date: "2025-12-23"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Determinantes personales
+
+Establezcamos esta noción. Para poder aplicar sanciones legales en retribución al daño infligido a una entidad, debería definirse exhaustivamente qué elementos determinan que estamos, ciertamente, ante tal entidad. 
+
+En este caso, tenemos que determinar qué elementos determinan a la entidad "persona".
+

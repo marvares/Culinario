@@ -33,7 +33,8 @@ Informe de Análisis Estadístico de la aplicación de diseño cuasiexperimental
 
 Pasaremos a describir y graficar las principales variables demográficas que caracterizan a la muestra:
 
-
+# Estadísticas Descriptivas
+## Semana 1 (Semana Control)
 
 ```{r Data_Restructuring, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results = 'asis'}
 # 1. Cargar librerías
@@ -138,8 +139,9 @@ TED <- function(df) {
 
 library(knitr)
 # Llamar a la función y mostrar los resultados
-names(df_final)
+# names(df_final)
 VIs <- df_final %>% 
+  filter(Semana == "Control") %>%
   select(`Producto`, `Servicio`, `Ambiente`, `Impresion_Gral`) %>% 
   as.data.frame()
 
@@ -148,6 +150,41 @@ TED_Stats <- TED(VIs)
 print(TED_Stats)
 
 ```
+## Semana 2 (Semana Manipulación Producto)
+
+```{r Dvas S2, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results = 'asis'}
+VIs <- df_final %>% 
+  filter(Semana == "Baja_Producto") %>%
+  select(`Producto`, `Servicio`, `Ambiente`, `Impresion_Gral`) %>% 
+  as.data.frame()
 
 
+TED_Stats <- TED(VIs)
+print(TED_Stats)
+```
+## Semana 3 (Semana Manipulación Servicio)
 
+```{r Dvas S3, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results = 'asis'}
+VIs <- df_final %>% 
+  filter(Semana == "Baja_Servicio") %>%
+  select(`Producto`, `Servicio`, `Ambiente`, `Impresion_Gral`) %>% 
+  as.data.frame()
+
+
+TED_Stats <- TED(VIs)
+print(TED_Stats)
+```
+
+
+## Semana 4 (Semana Manipulación Ambiente)
+
+```{r Dvas S4, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results = 'asis'}
+VIs <- df_final %>% 
+  filter(Semana == "Baja_Ambiente") %>%
+  select(`Producto`, `Servicio`, `Ambiente`, `Impresion_Gral`) %>% 
+  as.data.frame()
+
+
+TED_Stats <- TED(VIs)
+print(TED_Stats)
+```
