@@ -1,0 +1,153 @@
+---
+title: "Influencia de la variación en los elementos de la experiencia gastronómica sobre la decisión de volver a consumir"
+subtitle: "Informe de Análisis Estadístico"
+author: "Martín Vargas Estrada"
+date: "2025-12-23"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 4
+  word_document:
+    toc: true
+    toc_depth: '4'
+  html_document:
+    toc: true
+    toc_depth: '4'
+    df_print: paged
+header-includes: \renewcommand{\contentsname}{Índice} \renewcommand{\tablename}{Tabla}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+\newpage
+
+# Introducción
+
+
+Informe de Análisis Estadístico de la aplicación de diseño cuasiexperimental.
+
+# Estrategia de Análisis
+
+Pasaremos a describir y graficar las principales variables demográficas que caracterizan a la muestra:
+
+
+
+```{r Data_Restructuring, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results = 'asis'}
+# 1. Cargar librerías
+library(tidyverse)
+
+# 2. Cargar tus datos
+# Reemplaza 'BT.csv' por la ruta de tu archivo
+df <- read.csv("BT.csv")
+
+
+# 3. Transformación de Formato Ancho a Largo (Data Restructuring)
+# Usaremos pivot_longer para colapsar las 68 columnas en 3 variables clave: 
+# Semana, Dimensión e Ítem.
+
+df_long <- df %>%
+  pivot_longer(
+    cols = starts_with("S"), 
+    names_to = "variable", 
+    values_to = "puntaje"
+  ) %>%
+  # Separamos la nomenclatura (ej. S1P1) en sus componentes
+  # Usamos una expresión regular: S + dígito (Semana) + Letra (Dimensión) + dígito (Ítem)
+  extract(
+    variable, 
+    into = c("Semana", "Dimension", "Item"), 
+    regex = "S(\\d)([PSEI])(\\d+)",
+    convert = TRUE
+  )
+
+# 4. Limpieza y Recodificación
+df_long <- df_long %>%
+  mutate(
+    # Convertimos Semana en un factor ordenado para los gráficos
+    Semana = factor(Semana, 
+                    levels = 1:4, 
+                    labels = c("Control", "Baja_Producto", "Baja_Servicio", "Baja_Ambiente")),
+    # Etiquetas claras para las dimensiones
+    Dimension = case_when(
+      Dimension == "P" ~ "Producto",
+      Dimension == "S" ~ "Servicio",
+      Dimension == "E" ~ "Ambiente",
+      Dimension == "I" ~ "Impresion_Gral"
+    )
+  )
+
+# 5. Manejo de la Variable Dicotómica (Recomendación)
+# Según tu descripción, el ítem 3 de la Impresión General (I3) es dicotómico.
+# Vamos a separarlo para que no ensucie los promedios de las escalas Likert.
+
+# Creamos un dataframe para las escalas Likert (Promedios)
+df_escalas <- df_long %>%
+  filter(!(Dimension == "Impresion_Gral" & Item == 3)) %>%
+  group_by(ID, Semana, Dimension) %>%
+  summarise(Promedio = mean(puntaje, na.rm = TRUE), .groups = "drop")
+
+# Creamos un dataframe específico para la Recomendación (Dicotómica)
+df_recomendacion <- df_long %>%
+  filter(Dimension == "Impresion_Gral" & Item == 3) %>%
+  select(ID, Semana, Recomendacion = puntaje) %>%
+  mutate(Recomendacion = factor(Recomendacion, levels = c(1, 2), labels = c("Sí", "No")))
+
+# 6. Unir todo en un Dataset Maestro para Análisis
+df_final <- df_escalas %>%
+  pivot_wider(names_from = Dimension, values_from = Promedio) %>%
+  left_join(df_recomendacion, by = c("ID", "Semana"))
+
+# Visualizar el resultado
+# head(df_final)
+# Generamos funciones
+# Función para generar tablas de frecuencias comme il faut
+TED <- function(df) {
+  # Crear un data frame para almacenar los resultados
+  resultados <- data.frame(
+    Variable = character(),
+    Mediana = numeric(),
+    Media = numeric(),
+    `Desviación Estándar` = numeric(),
+    `Número de Casos` = integer(),
+    stringsAsFactors = FALSE
+  )
+  
+  # Iterar sobre cada columna del dataframe
+  for (nombre_columna in colnames(df)) {
+    # Calcular la mediana, media, desviación estándar y número de casos
+    mediana <- round(median(df[[nombre_columna]]), 2)
+    media <- round(mean(df[[nombre_columna]]), 2)
+    desviacion_estandar <- round(sd(df[[nombre_columna]]), 2)
+    numero_casos <- length(df[[nombre_columna]])
+    
+    # Agregar los resultados al data frame
+    resultados <- rbind(resultados, data.frame(
+      Variable = nombre_columna,
+      Mediana = mediana,
+      Media = media,
+      `Desviación Estándar` = desviacion_estandar,
+      `Número de Casos` = numero_casos
+    ))
+  }
+  
+  return(kable(resultados, format = "markdown"))
+}
+
+library(knitr)
+# Llamar a la función y mostrar los resultados
+names(df_final)
+VIs <- df_final %>% 
+  select(`Producto`, `Servicio`, `Ambiente`, `Impresion_Gral`) %>% 
+  as.data.frame()
+
+
+TED_Stats <- TED(VIs)
+print(TED_Stats)
+
+```
+
+
+

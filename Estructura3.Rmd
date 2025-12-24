@@ -1,0 +1,64 @@
+---
+title: "DicDat"
+author: "Martín Vargas Estrada"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+
+## Para ver los detalles de variables 
+
+```{r Labels_SPSS, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE, results='asis'}
+library(readr)
+GOUR <- read_csv("BT.csv")
+
+
+# Creo función para mostrar listado de variables 
+resumen_variables <- function(data) {
+  # Prealocar vectores
+  indice <- seq_along(data)
+  nombre <- names(data)
+  tipo <- sapply(data, function(x) class(x)[1])
+  
+  niveles <- sapply(data, function(x) {
+    if (is.factor(x)) paste(levels(x), collapse = ", ") else ""
+  })
+  
+  muestra <- sapply(data, function(x) {
+    if (!is.factor(x)) {
+      valores <- unique(x)
+      muestra <- head(valores, 5)
+      paste(muestra, collapse = ", ")
+    } else ""
+  })
+  
+  # Construir tabla con rownames vacíos para evitar repetición de nombres
+  resumen <- data.frame(
+    `Índice de Columna` = indice,
+    `Nombre de la Variable` = nombre,
+    `Tipo de variable` = tipo,
+    `Niveles Ordenados (Si es una variable factor; de lo contrario dejar en blanco)` = niveles,
+    `Muestra de valores (Si no es una variable factor; de lo contrario, dejar en blanco)` = muestra,
+    check.names = FALSE,
+    stringsAsFactors = FALSE
+  )
+  
+  rownames(resumen) <- NULL  # Esto es lo que faltaba para que no se repitan nombres
+  
+  return(resumen)
+}
+
+# ... Y la aplico
+
+ojon <- resumen_variables(GOUR)
+library(knitr) # Para usar kable
+
+# Formato con kable
+kable(ojon, format = "markdown")
+
+
+```
+
+
+
+
